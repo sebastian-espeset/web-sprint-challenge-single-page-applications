@@ -1,4 +1,6 @@
 import React,{ useState } from "react";
+import { Link } from "react-router-dom";
+import PizzaForm from './Pizza-form';
 
 
 
@@ -7,7 +9,9 @@ import React,{ useState } from "react";
 export default function Home(){
     return(
         <div>
-            this is a test of passing the home page to app
+            <h1>Welcome to pizza fort, place your order below</h1>
+            <Link to = '/pizza'>Order here!</Link>
+         
         </div>
     )
 };

@@ -6,6 +6,6 @@ import React from 'react';
 
 export default function PizzaCongrats(){
     return(
-        <div>This is a test of pizza congrats passing successfully</div>
+        <div>This is a test of pizza congrats passed to the app.</div>
     )
 }
